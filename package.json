@@ -1,0 +1,26 @@
+{
+  "name": "react-skelett",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanhoah/react-skelett.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/hanhoah/react-skelett/issues"
+  },
+  "dependencies": {
+    "babelify": "~7.3.0",
+    "watchify": "~3.7.0",
+    "babel-preset-react": "~6.16.0",
+    "react": "~15.4.1",
+    "react-dom": "~15.4.1"
+  }
+}
